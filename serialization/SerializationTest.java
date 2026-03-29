@@ -9,7 +9,7 @@ class Student implements Serializable{
 	}
 }
 
-class SerializationTest1{
+class SerializationTest{
 	public static void main(String[] args)throws Exception{
 		Student s1 = new Student(1,"azeez");
 		Student s2 = new Student(2,"bob");
